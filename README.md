@@ -1,5 +1,5 @@
 # vue-raven-js
-vue应用通过`vue-raven-js`使用`raven-js`捕获javascript异常，上报(sentry)[https://docs.sentry.io]。
+vue应用通过`vue-raven-js`使用`raven-js`捕获javascript异常，上报[sentry](https://docs.sentry.io)。
 
 ## Installation
 ```
@@ -9,7 +9,7 @@ yarn add vue-raven-js
 ```
 
 ## Usage
-```
+```js
 import Vue from 'vue'
 import VueRavenjs from 'vue-raven-js'
 
@@ -25,7 +25,8 @@ Vue.use(VueRavenjs, {
 tip：可以通过`this.$raven`访问`Raven`对象。
 
 ## Options
-Option|Type|Default|Info
-dsn|`string`|`null`|`https://<key>@sentry.io/<project>`
-config|`object`|`null`|`Raven`支持的config
-disable|`boolean`|`null`|禁用`Raven`
+|Option|Type|Default|Info|
+|:---|:---|:---|:---|
+|dsn|`string`|`null`|`https://<key>@sentry.io/<project>`|
+|config|`object`|`null`|`Raven`支持的config|
+|disable|`boolean`|`null`|禁用`Raven`|

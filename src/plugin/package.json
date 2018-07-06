@@ -1,0 +1,23 @@
+{
+  "name": "vue-raven-js",
+  "version": "0.1.0",
+  "description": "vue-raven-js",
+  "main": "vue-raven-js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "raven-js": "^3.26.3"
+  },
+  "keywords": [
+    "vue",
+    "vue-raven",
+    "vue-raven-js"
+  ],
+  "author": "wuyaoxing <82565097@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wuyaoxing/vue-raven-js/issues"
+  },
+  "homepage": "https://github.com/wuyaoxing/vue-raven-js#readme"
+}
